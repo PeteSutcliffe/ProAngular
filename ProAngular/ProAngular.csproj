@@ -138,6 +138,7 @@
     <Content Include="Html\App\app.html" />
     <Content Include="Html\Ch1\todo.html" />
     <Content Include="Html\Ch1\test.html" />
+    <Content Include="Scripts\Controllers\sportsStore.js" />
     <Content Include="Scripts\Lib\angular-animate.js" />
     <Content Include="Scripts\Lib\angular-animate.min.js" />
     <Content Include="Scripts\Lib\angular-cookies.js" />
@@ -157,7 +158,7 @@
     <Content Include="Scripts\Lib\angular-touch.min.js" />
     <Content Include="Scripts\Lib\angular.js" />
     <Content Include="Scripts\Lib\angular.min.js" />
-    <Content Include="Scripts\Lib\_references.js" />
+    <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
