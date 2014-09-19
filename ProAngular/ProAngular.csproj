@@ -138,7 +138,9 @@
     <Content Include="Html\App\app.html" />
     <Content Include="Html\Ch1\todo.html" />
     <Content Include="Html\Ch1\test.html" />
+    <Content Include="Scripts\Controllers\productListControllers.js" />
     <Content Include="Scripts\Controllers\sportsStore.js" />
+    <Content Include="Scripts\Filters\customFilters.js" />
     <Content Include="Scripts\Lib\angular-animate.js" />
     <Content Include="Scripts\Lib\angular-animate.min.js" />
     <Content Include="Scripts\Lib\angular-cookies.js" />
