@@ -146,6 +146,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Html\App\app.html" />
+    <Content Include="Html\App\Views\productList.html" />
     <Content Include="Html\Ch1\todo.html" />
     <Content Include="Html\Ch1\test.html" />
     <Content Include="Scripts\Controllers\productListControllers.js" />
