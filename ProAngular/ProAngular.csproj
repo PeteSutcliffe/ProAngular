@@ -152,6 +152,7 @@
     <Content Include="Html\Ch1\test.html" />
     <Content Include="Scripts\Components\Cart\cart.js" />
     <Content Include="Scripts\Components\Cart\cartSummary.html" />
+    <Content Include="Scripts\Controllers\checkoutControllers.js" />
     <Content Include="Scripts\Controllers\productListControllers.js" />
     <Content Include="Scripts\Controllers\sportsStore.js" />
     <Content Include="Scripts\Filters\customFilters.js" />
