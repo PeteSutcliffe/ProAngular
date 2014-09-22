@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html ng-app="sportsStoreAdmin">
+<head>
+    <title>Administration</title>
+    <script src="../../Scripts/Lib/angular.js"></script>
+    <script src="../../Scripts/Lib/angular-route.js"></script>    
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../../Content/bootstrap-theme.css" rel="stylesheet" />
+    <script>
+        angular.module("sportsStoreAdmin", ["ngRoute"])
+            .config(function ($routeProvider) {
+
+                $routeProvider.when("/login", {
+                    templateUrl: "views/adminLogin.html"
+                });
+
+                $routeProvider.when("/main", {
+                    templateUrl: "views/adminMain.html"
+                });
+
+                $routeProvider.otherwise({
+                    redirectTo: "login"
+                });
+            });
+    </script>
+    <script src="../../Scripts/Controllers/adminControllers.js"></script>
+</head>
+<body>
+    <ng-view />
+</body>
+</html>

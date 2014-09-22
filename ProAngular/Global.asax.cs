@@ -26,6 +26,7 @@ namespace ProAngular
             var settings = jsonFormatter.SerializerSettings;
             settings.Formatting = Formatting.Indented;
             settings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+            settings.PreserveReferencesHandling = PreserveReferencesHandling.Objects;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web.Http;
 using ProAngular.Infrastructure;
@@ -18,6 +19,13 @@ namespace ProAngular.Controllers
             order.Products = null;
             
             return order;
+        }
+
+        [Authorize(Users = "admin")]
+        public IEnumerable<Order> Get()
+        {
+            var orders = db.Orders.Include("Products");
+            return orders;
         }
     }
 }

@@ -128,6 +128,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\Ch1Controller.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -147,7 +148,12 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Html\App\admin.html" />
     <Content Include="Html\App\app.html" />
+    <Content Include="Html\App\Views\adminLogin.html" />
+    <Content Include="Html\App\Views\adminMain.html" />
+    <Content Include="Html\App\Views\adminOrders.html" />
+    <Content Include="Html\App\Views\adminProducts.html" />
     <Content Include="Html\App\Views\checkoutSummary.html" />
     <Content Include="Html\App\Views\placeOrder.html" />
     <Content Include="Html\App\Views\productList.html" />
@@ -156,6 +162,7 @@
     <Content Include="Html\Ch1\test.html" />
     <Content Include="Scripts\Components\Cart\cart.js" />
     <Content Include="Scripts\Components\Cart\cartSummary.html" />
+    <Content Include="Scripts\Controllers\adminControllers.js" />
     <Content Include="Scripts\Controllers\checkoutControllers.js" />
     <Content Include="Scripts\Controllers\productListControllers.js" />
     <Content Include="Scripts\Controllers\sportsStore.js" />
