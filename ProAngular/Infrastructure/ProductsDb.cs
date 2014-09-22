@@ -6,5 +6,6 @@ namespace ProAngular.Infrastructure
     public class ProductsDb : DbContext
     {
         public DbSet<Product> Products { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }
