@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using Newtonsoft.Json;
 
 namespace ProAngular.Models
 {
@@ -31,6 +30,21 @@ namespace ProAngular.Models
         public bool Giftwrap { get; set; }
 
         [Required]
-        public ICollection<Product> Products { get; set; }
+        public ICollection<OrderProduct> Products { get; set; }
+    }
+
+    public class OrderProduct
+    {
+        [Key]
+        public int Id { get; set; }
+
+        [Required]
+        public Product Product { get; set; }
+
+        [Required]
+        public int Count { get; set; }
+
+        [Required]
+        public decimal Price { get; set; }
     }
 }
