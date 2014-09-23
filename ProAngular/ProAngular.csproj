@@ -163,6 +163,7 @@
     <Content Include="Scripts\Components\Cart\cart.js" />
     <Content Include="Scripts\Components\Cart\cartSummary.html" />
     <Content Include="Scripts\Controllers\adminControllers.js" />
+    <Content Include="Scripts\Controllers\adminProductController.js" />
     <Content Include="Scripts\Controllers\checkoutControllers.js" />
     <Content Include="Scripts\Controllers\productListControllers.js" />
     <Content Include="Scripts\Controllers\sportsStore.js" />

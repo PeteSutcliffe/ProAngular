@@ -3,11 +3,12 @@
 <head>
     <title>Administration</title>
     <script src="../../Scripts/Lib/angular.js"></script>
-    <script src="../../Scripts/Lib/angular-route.js"></script>    
+    <script src="../../Scripts/Lib/angular-route.js"></script>
+    <script src="../../Scripts/Lib/angular-resource.js"></script>    
     <link href="../../Content/bootstrap.css" rel="stylesheet" />
     <link href="../../Content/bootstrap-theme.css" rel="stylesheet" />
     <script>
-        angular.module("sportsStoreAdmin", ["ngRoute"])
+        angular.module("sportsStoreAdmin", ["ngRoute","ngResource"])
             .config(function ($routeProvider) {
 
                 $routeProvider.when("/login", {
@@ -24,6 +25,7 @@
             });
     </script>
     <script src="../../Scripts/Controllers/adminControllers.js"></script>
+    <script src="../../Scripts/Controllers/adminProductController.js"></script>
 </head>
 <body>
     <ng-view />
